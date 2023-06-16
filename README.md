@@ -1,4 +1,4 @@
 # ada-exercices-individuels
-Liste de dossiers des exercices individuels Ada
-Exercice1 : 
-Exercice2 :
+<U><h3>Liste de dossiers des exercices individuels Ada</h3><br></U>
+Exercice1 : <br>
+Exercice2 : <br>
