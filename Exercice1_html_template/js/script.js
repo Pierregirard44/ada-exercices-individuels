@@ -1,5 +1,5 @@
 function askName () {
-    let name = prompt("What's your name bro?");
+    let name = prompt("What's your name ?");
     let introName = `<h2> Bonjour ${name} ! </h2>`
     document.body.innerHTML += introName
 }
@@ -14,7 +14,7 @@ function askBirthYear () {
 
     let phraseDate = "<h3>" + "La date du jour p'tit chat! On est le " + day + "/" + mnth + "/" + year + "</h3>"
 
-    let annee = prompt("What's your year of birth dude?","yyyy") 
+    let annee = prompt("What's your year of birth ","yyyy") 
     let ageInf = year - annee - 1
 
     let popMois = prompt ("Quel mois t'as vu pousser ton premier cri?", "janvier,février,mars...,décembre")

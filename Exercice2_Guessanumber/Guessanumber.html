@@ -13,7 +13,8 @@
                     window.alert ("Vous êtes 2 Stormtroopers, entendez-vous sur le nombres de droïdes à trouver!")
                     let givenNumber 
                     do {
-                        if (givenNumber > 50) {window.alert ("Pas plus de 50, on est pas des gardes impériaux!")}
+                        if (givenNumber > 50) {window.alert ("Pas plus de 50, on est pas de la 501ème!")}
+                        if (givenNumber < 0 ) {window.alert ("Un peu de sérieux, un chiffre négatif est impossible!")}
                         givenNumber = prompt ("Premier Stormtrooper, tu es sûr de toi, combien de droïdes déjà?","Entre 1 et 50")
                     } while (givenNumber > 50)
 
